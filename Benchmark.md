@@ -18,6 +18,10 @@
 
 ***
 * Kaggle notebook: https://www.kaggle.com/code/serbandoncean/notebookc3c3ecb67a?scriptVersionId=158972769
-* Score:
-    * Public test set: 0.58823 (68th place)
-    * Private test set: 0.54545 (16th place)
+
+| Method | Public Score | Private Score | Public Place | Private Place |
+|--------|--------------|---------------|--------------|---------------|
+| SOTA public | **0.82758** | 0.54545 | **1** | 16 |
+| SOTA private | 0.69565 | **0.61538** | 29 | **1** |
+| ResNeSt benchmark | 0.59459 | 0.48275 | 67 | 45 |
+| MaxViT benchmark | 0.58823 | 0.54545 | 71 | 16 |
