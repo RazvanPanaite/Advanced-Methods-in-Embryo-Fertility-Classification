@@ -15,6 +15,8 @@
 * **Model soup:** "Model soup" in machine learning involves combining diverse models to improve performance, reducing overfitting and enhancing predictions. We experimented with this technique by combining our trained folds to reduce inference time and memory usage.
   
 ***
+* **Comparison between methods:** The enhanced version reduces training time with a larger model due to increased memory allowing for bigger batch sizes, despite higher memory usage. It also achieves high scores more quickly by using pre-trained weights for faster complex pattern recognition. Inference times remain similar for both the enhanced and benchmark versions, with efficient CPU execution, except for the assembly variant which is slower.
+***
 * Link notebook: https://www.kaggle.com/code/serbandoncean/notebookc3c3ecb67a?scriptVersionId=158972769
 
 | Method | Public Score | Private Score | Public Place | Private Place |
